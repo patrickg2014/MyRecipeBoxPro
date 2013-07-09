@@ -1,0 +1,142 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smarttechnow.myrecipebox"
+    android:versionCode="8"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+    <uses-feature android:name="android.permission.SEND_SMS"
+        android:required="false" >
+    </uses-feature>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/real_app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.smarttechnow.patrick.Splash"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.StartActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.STARTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.TextSubmit"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.TEXTSUBMIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.TextSender"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.TEXTSENDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.MailSender"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.MAILSENDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.MailSubmit"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.MAILSUBMIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.OtherSubmit"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.OTHERSUBMIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.OtherSender"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.OTHERSENDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.RecipeViewer"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.RECIPEVIEWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.editRecipe"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.EDITRECIPE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.HelpScreen"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.HELPSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.smarttechnow.patrick.AboutScreen"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="com.smarttechnow.patrick.ABOUTSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    
+    
+
+</manifest>

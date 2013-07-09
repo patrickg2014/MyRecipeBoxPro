@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Smart Tech Now</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">My Recipe Box Pro</string>
+    <string name="real_app_name">My Recipe Box Pro</string>
+    <string name="action_search">Search</string>
+    <string name="textview">TextView</string>
+    <string name="submit">Submit</string>
+    <string name="send">Send</string>
+    <string name="enter_recipe_title_here_">Enter Recipe Title Here...</string>
+    <string name="enter_directions_here_">Enter Directions Here...</string>
+    <string name="help_instructions">
+        There are three different Tabs that allow for quick navigation between menus. Use these tabs to choose to View, Share or Add recipes.
+        Please report issues to:
+        smarttechnologynow@gmail.com
+        </string>
+    <string name="about_us">
+        My Recipe Box Pro was created by Smart Technology Now on December 18th 2012. Smart Technology Now is a company focused on providing
+        smart technology solutions for our customers. You can contact Smart Technology Now at smarttechnologynow@gmail.com
+        </string>
+    
+
+</resources>
